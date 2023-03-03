@@ -24,7 +24,7 @@ class Account{
   
     FixedDeposit(){
   
-        super("SIBOMANA GLORRY", 20); // calling the no-arg constructor in the base class
+        super(); // calling the no-arg constructor in the base class
         double APY = 12.5;
         System.out.println("Your current interest rate is " + APY + "%");
     }
