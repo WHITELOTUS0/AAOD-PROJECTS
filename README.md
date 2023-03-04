@@ -2,4 +2,5 @@
 
 Advanced Object Oriented programmig
 
-*Constructor Chaining
+- Constructor Chaining
+* Object Type Casting
