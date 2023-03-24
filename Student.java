@@ -20,6 +20,8 @@ public class Student implements Cloneable {
         System.out.println(obj.name +"\n"+obj.age);
         System.out.println(obj1.age);
         }
-        catch(CloneNotSupportedException e){}
+        catch(CloneNotSupportedException e){
+            System.out.println(e);
+        }
     }
 }
