@@ -1,4 +1,4 @@
-//object type casting code in java?
+
 
 // Constructor Chaining to Another Class in Java
 
