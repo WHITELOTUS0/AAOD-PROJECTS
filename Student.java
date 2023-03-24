@@ -17,8 +17,8 @@ public class Student implements Cloneable {
         try{
         Student obj = new Student("GLORRY", 20);
         Student obj1 = (Student) obj.clone();
-        System.out.println(obj.name +""+obj.age);
-        System.out.println(obj1);
+        System.out.println(obj.name +"\n"+obj.age);
+        System.out.println(obj1.age);
         }
         catch(CloneNotSupportedException e){}
     }
