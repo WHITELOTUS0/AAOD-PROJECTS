@@ -10,7 +10,8 @@ public class Generic <T> {
     }
 
     public static void main(String[] args) {
-        
+        Generic<Integer> obj = new Generic<Integer>(15);
+        System.out.println(obj.getObject());
     }
 
 }
