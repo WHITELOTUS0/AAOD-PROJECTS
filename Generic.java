@@ -9,6 +9,8 @@ public class Generic <T> {
         return this.value;
     }
 
-    
+    public static void main(String[] args) {
+        
+    }
 
 }
