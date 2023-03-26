@@ -4,6 +4,6 @@ public class Interning{
     String s3 = s1.intern();
     
     public static void main(String[] args) {
-        
+        System.out.println();
     }
 }
