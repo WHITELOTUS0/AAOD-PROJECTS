@@ -6,6 +6,7 @@ public class Interning{
         String s2 = new String("Glorry");
         String s3 = s1.intern();
         System.out.println(s3);
-        System.out.println(s1.equals(s3));
+        System.out.println(s1==s3);
+        String s4="Glorry";
     }
 }
