@@ -10,5 +10,7 @@ public class Interning{
         String s4="Glorry";
         System.out.println(s3==s4);
         System.out.println(s1==s2);
+        String s5 = s2.intern();
+        System.out.println(s3==s5);
     }
 }
