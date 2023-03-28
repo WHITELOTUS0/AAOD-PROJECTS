@@ -6,3 +6,4 @@ Advanced Object Oriented programmig
 * Object Type Casting
 - Generic 
 * Interning
+* Object immutability
