@@ -8,7 +8,7 @@ public class Interning{
         System.out.println(s3);
         System.out.println(s1==s3);
         String s4="Glorry";
-        System.out.println(s3==s4);
+        
         System.out.println(s1==s2);
         String s5 = s2.intern();
         
