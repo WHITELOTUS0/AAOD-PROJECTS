@@ -8,7 +8,7 @@ public final class Person{
     }
 
     public String getName(){
-        
+        return name;
     }
 
 }
