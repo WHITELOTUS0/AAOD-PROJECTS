@@ -15,6 +15,8 @@ public final class Person{
         return age;
     }
 
-    public Person withAge(){}
+    public Person withAge(int newAge){
+        return new Person(name, newAge);
+    }
 
 }
