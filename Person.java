@@ -19,4 +19,8 @@ public final class Person{
         return new Person(name, newAge);
     }
 
+    public static void main(String[] args) {
+        Person p = new Person("John", 30);
+    }
+
 }
