@@ -7,4 +7,8 @@ public final class Person{
         this.age=age;
     }
 
+    public String getName(){
+        
+    }
+
 }
