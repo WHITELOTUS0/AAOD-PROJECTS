@@ -15,4 +15,6 @@ public final class Person{
         return age;
     }
 
+    public Person withAge(){}
+
 }
