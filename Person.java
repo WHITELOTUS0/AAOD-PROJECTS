@@ -21,6 +21,8 @@ public final class Person{
 
     public static void main(String[] args) {
         Person p = new Person("John", 30);
+        p.withAge(0);
+        System.out.println(p.withAge(1));
     }
 
 }
