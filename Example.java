@@ -15,5 +15,5 @@ class Example extends Base{
 
     }
 
-}
+}//immutable classes dont have setter methods but they can have getter methods
 
