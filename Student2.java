@@ -5,6 +5,7 @@ public class Student2 implements Serializable{
     String name;
 
     Student2(int id, String name){
-
+        this.name=name;
+        this.id=id;
     }
 }
