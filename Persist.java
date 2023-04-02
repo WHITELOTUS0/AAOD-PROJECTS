@@ -8,6 +8,8 @@ public class Persist{
             ObjectOutputStream oout = new ObjectOutputStream(fout);
             oout.writeObject(s1);
             oout.flush();
+            oout.close();
+            System.out.println("succes");
         }catch(Exception e){System.out.println(e);}
     }
 }
