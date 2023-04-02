@@ -7,6 +7,7 @@ public class Persist{
             FileOutputStream fout = new FileOutputStream("f.txt");
             ObjectOutputStream oout = new ObjectOutputStream(fout);
             oout.writeObject(s1);
+            oout.flush();
         }catch(Exception e){System.out.println(e);}
     }
 }
