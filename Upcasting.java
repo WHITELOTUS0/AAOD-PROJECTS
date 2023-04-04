@@ -8,5 +8,5 @@ public class Upcasting {
 
 
 //creating a driver class to implement the code
-//Parent obj = new Child();
+
 
