@@ -8,3 +8,4 @@ Advanced Object Oriented programmig
 * Interning
 * Object immutability
 - Serialization
+* Deserialization
