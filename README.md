@@ -7,3 +7,4 @@ Advanced Object Oriented programmig
 - Generic 
 * Interning
 * Object immutability
+- Serialization
